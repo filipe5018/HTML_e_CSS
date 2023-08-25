@@ -9,19 +9,24 @@
 <body>
 
 <div class="login-container">
-    <h1>Login</h1><hr>
+    <h1>Login</h1> <hr>
     <form action="/autenticar" method="post">
-        <label for="email">Seu e-mail</label>
-        <input type="email" id="email" name="email" required><br><br>
     
-        <label for="senha">Sua senha</label>
-        <input type="password" id="senha" name="senha" required><br><br>
+        <main>
+            <label for="email">Seu e-mail</label>
+            <input type="email" id="email" name="email" required class="input"><br><br>
+            <label for="senha">Sua senha</label>
+            <input type="password" id="senha" name="senha" required class="input"><br><br>
+        </main>
     
         <input type="radio" id="genero1" name="genero" value="masculino" required>
         <label class="manter">Manter-me logado</label>
     
+      
         <input type="submit" value="Logar" class="botao">
+    <footer>
         <p>Ainda não tem conta?</p><input type="submit" value="Cadastre-se" class="botao1">
+    </footer>
     </form>
 </div>
 
