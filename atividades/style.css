@@ -1,13 +1,24 @@
 @charset "UTF-8";
 
 h1 {
-    color: rgb(21, 98, 104);
+    color: #046974;
     text-align: center;
-    padding: -12px;
+    height: 23px;
+    font-size: 43px;
+    position: relative;
+    top: -10px;
+}
+
+hr {
+  width: 400px;
+  height: 1.7px;
+  border: none;
+  background-image: linear-gradient(to right, transparent, #48828a 50%, transparent);
+
 }
 
 body {
-    background: linear-gradient(to right, #2fa866, #1a5c37, #063d1e);
+    background: #EEEEEE;
 }
 
 .login-container {
@@ -20,10 +31,10 @@ body {
     left: 50%;
     transform: translate(-50%,-50%);
     padding: 20px;
-    border:0.5px solid rgba(29, 90, 102, 0.719);
+    border: 1.5px solid #92B8BD;
     border-radius: 4px;
-    box-shadow: 3px 5px 4px rgba(0, 0, 0, 0.301);
-    width: 350px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.301);
+    width: 416px;
     }
 
 main {
@@ -34,59 +45,68 @@ main {
 
 main > label {
     position: relative;
-    top: 18px;
-    right: 100px;
+    top: 4px;
+    right: 141px;
 }
 
 main > input {
     position: relative;
-    bottom: -16px;
-    right: -14px;
-    margin: 6px;
-    width: 22em;
+    bottom: -8px;
+    right: -10px;
+    margin: 1px;
+    width: 27.5em;
     height: 1.8em;
+    border: 1px solid rgba(20, 20, 20, 0.404);
+}
+
+.input1 {
+    position: relative;
+    top: -6px;
 }
 
 .manter {
-    margin: 72px;
+    margin: 113px;
     position: relative;
-    left: -75px;
+    left: -116px;
+    top: -7px;
  }
 
 .botao {
-    background-color: rgba(30, 91, 104, 0.918);
+    background-color:#3D9DB3 ;
     color: rgb(226, 231, 241);
     font-weight: bold;
     font-size: 0.9em;
     border: none;
     border-radius: 5px;
     padding: 7px;
-    width: 300px;
+    width: 378px;
     position: relative;
-    bottom: -15px;
+    bottom: -9px;
 }
 
 .botao1 {
-    border: 2px solid yellow;
+    border: 2px solid #DCE37E;
     font-weight: bolder;
-    color: rgb(16, 101, 170);  
+    color: #0B9BBE;  
     position: relative;
-    left: 130px;
-    top: -20px;
+    left: 147px;
+    top: -15px;
 }
 
 footer {
-    background-color: rgba(201, 181, 181, 0.658);
+    background-color: #E1EAEB;
     position: relative;
-    bottom: -20px;
+    bottom: -19px;
     left: -20px;
-    width: 390px;
+    width: 455px;
+    height: 53px;
 }
 
 footer > p {
+    color: #929191;
     font-size: 13px;
     position: relative;
-    top: 9px;
-    left: 10px;
+    top: 15px;
+    left: 30px;
 }
 
